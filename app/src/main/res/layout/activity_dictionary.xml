@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="volley.com.ferheng.DictionaryActivity"
+    android:padding="20dp">
+
+
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+        <Spinner
+            android:id="@+id/activity_dictionary_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            tools:listitem=""/>
+
+    </LinearLayout>
+
+    <AutoCompleteTextView
+        android:id="@+id/activity_dictionary_searchview"
+        android:layout_width="328dp"
+        android:layout_height="58dp"
+         />
+    <TextView
+        android:id="@+id/activity_dictionary_meaning"
+        android:layout_width="331dp"
+        android:layout_height="50dp"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/activity_dictionary_favouritebutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Button" />
+
+
+</LinearLayout>
